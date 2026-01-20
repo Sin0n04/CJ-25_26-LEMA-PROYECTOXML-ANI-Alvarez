@@ -1,62 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
-<catalog>
-    <iva>21</iva>
+
+
+<catalog currency="EUR">
+    <vat>21</vat>
+
     <components>
-        <component>
-            <type>Motherboard</type>
-            <marca>ASUS</marca>
-            <modelo>ROG STRIX B550-F Gaming</modelo>
-            <precio moneda="EUR">207.53</precio>
-            <stock>10000</stock>
-            <image>asusrog.jpg</image>
-            <link>https://www.pccomponentes.com/asus-rog-strix-b550-f-gaming</link>
-            <discount>14</discount>
 
-
+        <component id="c1" category="Motherboard">
+            <brand>ASUS</brand>
+            <model>B550-F Gaming</model>
+            <price>207.53</price>
+            <stock>120</stock>
+            <image>mb1.jpg</image>
+            <url>https://www.pccomponentes.com/asus-rog-strix-b550-f-gaming</url>
+            <discount>10</discount>
         </component>
-        <component>
-            <type>Ram</type>
-            <marca>Corsair</marca>
-            <modelo>Corsair Vengeance 64GB DDR5</modelo>
-            <speed>6400MHz</speed>
-            <precio moneda="EUR">1625.31</precio>
-            <stock>10</stock>
-            <image>VENGEANCE.jpg</image>
-            <link>https://www.pccomponentes.com/memoria-ram-corsair-vengeance-cmk64gx5m2b6400c42-64gb-2x32gb-ddr5-6400mhz-cl42-intel-xmp-negro</link>
-            <discount>23</discount>
 
 
+        <component id="c2" category="Motherboard">
+            <brand>MSI</brand>
+            <model>B660 Tomahawk</model>
+            <price>189.99</price>
+            <stock>80</stock>
+            <image>mb2.jpg</image>
+            <url>https://www.pccomponentes.com/msi-b660-tomahawk</url>
+            <discount>5</discount>
         </component>
-        <component>
-            <type>Gpu</type>
-            <marca>Palit</marca>
-            <modelo>Nvidia RTX 5080</modelo>
-            <precio moneda="EUR">1840.93</precio>
-            <Vram>16GB GDDR7</Vram>
-            <stock>200</stock>
-            <image>PalitGeForceRTX5080.jpg</image>
-            <link>https://www.pccomponentes.com/tarjeta-grafica-palit-geforce-rtx-5080-gamingpro-16gb-gddr7-reflex-2-rtx-ai-dlss4</link>
+
+        <component id="c3" category="GPU">
+            <brand>Palit</brand>
+            <model>RTX 5080</model>
+            <price>1840.93</price>
+            <stock>20</stock>
+            <image>gpu1.jpg</image>
+            <url>https://www.pccomponentes.com/palit-rtx-5080</url>
             <discount>35</discount>
-
-
         </component>
+
+        <component id="c4" category="GPU">
+            <brand>Gigabyte</brand>
+            <model>RTX 4070 Ti</model>
+            <price>999.90</price>
+            <stock>45</stock>
+            <image>gpu2.jpg</image>
+            <url>https://www.pccomponentes.com/gigabyte-rtx-4070-ti</url>
+            <discount>15</discount>
+        </component>
+
+        <component id="c5" category="RAM">
+            <brand>Corsair</brand>
+            <model>Vengeance DDR5 32GB</model>
+            <price>289.99</price>
+            <stock>60</stock>
+            <image>ram1.jpg</image>
+            <url>https://www.pccomponentes.com/corsair-vengeance-ddr5</url>
+            <discount>20</discount>
+        </component>
+
+        <component id="c6" category="RAM">
+            <brand>Kingston</brand>
+            <model>Fury Beast DDR5 32GB</model>
+            <price>269.99</price>
+            <stock>70</stock>
+            <image>ram2.jpg</image>
+            <url>https://www.pccomponentes.com/kingston-fury-beast-ddr5</url>
+            <discount>12</discount>
+        </component>
+
     </components>
-    
-    <prebuilts>
-        <prebuilt>
-            <specs>
-                <cpu></cpu>
-                <gpu></gpu>
-                <ram></ram>
-                <storage></storage>
-                <power></power>
-                <windows>Y</windows>
-                <stock>200</stock>
-                <image></image>
-                <link></link>
-                <discount>35</discount>
-            </specs>
-        </prebuilt>
-    </prebuilts>
+
 </catalog>

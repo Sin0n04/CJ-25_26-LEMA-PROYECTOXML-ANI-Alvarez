@@ -1,0 +1,20 @@
+<!ELEMENT catalog (vat, components)>
+<!ATTLIST catalog
+          currency CDATA #FIXED "EUR">
+
+<!ELEMENT vat (#PCDATA)>
+
+<!ELEMENT components (component+)>
+
+<!ELEMENT component (brand, model, price, stock, image, url, discount)>
+<!ATTLIST component
+          id ID #REQUIRED
+          category (Motherboard | GPU | RAM) #REQUIRED>
+
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
