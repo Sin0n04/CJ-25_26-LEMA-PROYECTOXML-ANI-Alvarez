@@ -1,4 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <catalog>
+    <iva>21</iva>
+    <components>
+        <component>
+            <type>Motherboard</type>
+            <marca>ASUS</marca>
+            <modelo>ROG STRIX B550-F Gaming</modelo>
+            <precio moneda="EUR">207.53</precio>
+            <stock>10000</stock>
+            <image>asusrog.jpg</image>
+            <link>https://www.pccomponentes.com/asus-rog-strix-b550-f-gaming</link>
+            <discount>14</discount>
+
+
+        </component>
+        <component>
+            <type>Ram</type>
+            <marca>Corsair</marca>
+            <modelo>Corsair Vengeance 64GB DDR5</modelo>
+            <speed>6400MHz</speed>
+            <precio moneda="EUR">1625.31</precio>
+            <stock>10</stock>
+            <image>VENGEANCE.jpg</image>
+            <link>https://www.pccomponentes.com/memoria-ram-corsair-vengeance-cmk64gx5m2b6400c42-64gb-2x32gb-ddr5-6400mhz-cl42-intel-xmp-negro</link>
+            <discount>23</discount>
+
+
+        </component>
+        <component>
+            <type>Gpu</type>
+            <marca>Palit</marca>
+            <modelo>Nvidia RTX 5080</modelo>
+            <precio moneda="EUR">1840.93</precio>
+            <Vram>16GB GDDR7</Vram>
+            <stock>200</stock>
+            <image>PalitGeForceRTX5080.jpg</image>
+            <link>https://www.pccomponentes.com/tarjeta-grafica-palit-geforce-rtx-5080-gamingpro-16gb-gddr7-reflex-2-rtx-ai-dlss4</link>
+            <discount>35</discount>
+
+
+        </component>
+    </components>
     
+    <prebuilts>
+        <prebuilt>
+            <specs>
+                <cpu></cpu>
+                <gpu></gpu>
+                <ram></ram>
+                <storage></storage>
+                <power></power>
+                <windows>Y</windows>
+                <stock>200</stock>
+                <image></image>
+                <link></link>
+                <discount>35</discount>
+            </specs>
+        </prebuilt>
+    </prebuilts>
 </catalog>
