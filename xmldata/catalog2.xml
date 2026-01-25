@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSL/catalog2.xsl"?>
+
+
+<catalog currency="EUR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../XSD/catalog.xsd">
+    <vat>21</vat>
+    
+    <components>
+        
+        <component id="c1" category="Motherboard">
+            <brand>ASUS</brand>
+            <model>B550-F Gaming</model>
+            <price>207.53</price>
+            <stock>120</stock>
+            <image>../images/asusrog.jpg</image>
+            <url>https://www.pccomponentes.com/asus-rog-strix-b550-f-gaming</url>
+            <discount>10</discount>
+        </component>
+        
+        
+        <component id="c2" category="Motherboard">
+            <brand>MSI</brand>
+            <model>B660 Tomahawk</model>
+            <price>189.99</price>
+            <stock>80</stock>
+            <image>../images/mb2.jpg</image>
+            <url>https://www.pccomponentes.com/msi-b660-tomahawk</url>
+            <discount>5</discount>
+        </component>
+        
+        <component id="c3" category="GPU">
+            <brand>Palit</brand>
+            <model>RTX 5080</model>
+            <price>1840.93</price>
+            <stock>20</stock>
+            <image>../images/PalitGeForceRTX5080.jpg</image>
+            <url>https://www.pccomponentes.com/palit-rtx-5080</url>
+            <discount>35</discount>
+        </component>
+        
+        <component id="c4" category="GPU">
+            <brand>Gigabyte</brand>
+            <model>RTX 4070 Ti</model>
+            <price>999.90</price>
+            <stock>45</stock>
+            <image>../images/gpu2.jpg</image>
+            <url>https://www.pccomponentes.com/gigabyte-rtx-4070-ti</url>
+            <discount>15</discount>
+        </component>
+        
+        <component id="c5" category="RAM">
+            <brand>Corsair</brand>
+            <model>Vengeance DDR5 32GB</model>
+            <price>289.99</price>
+            <stock>60</stock>
+            <image>../images/VENGEANCE.jpg</image>
+            <url>https://www.pccomponentes.com/corsair-vengeance-ddr5</url>
+            <discount>20</discount>
+        </component>
+        
+        <component id="c6" category="RAM">
+            <brand>Kingston</brand>
+            <model>Fury Beast DDR5 32GB</model>
+            <price>269.99</price>
+            <stock>70</stock>
+            <image>../images/1938-kingston-fury-beast-ddr5-5200mhz-16gb-cl40.jpg</image>
+            <url>https://www.pccomponentes.com/kingston-fury-beast-ddr5-5200mhz-16gb-cl40</url>
+            <discount>12</discount>
+        </component>
+        
+    </components>
+    
+</catalog>
